@@ -1,0 +1,10 @@
+diff a/mySokobanSolver.py b/mySokobanSolver.py	(rejected hunks)
+@@ -304,7 +304,7 @@
+         worker_x = curr_warehouse.worker[0]
+         worker_y = curr_warehouse.worker[1]
+         boxes = curr_warehouse.boxes    
+-        
++
+         assert action in self.actions(state)
+         
+         if state is not None:
